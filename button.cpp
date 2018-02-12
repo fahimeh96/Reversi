@@ -1,6 +1,8 @@
 #include "button.h"
 #include <QDebug>
 
+// button.cpp
+
 Button::Button(QWidget *parent, int x, int y) : QPushButton(parent)
 {
     QString style = "QPushButton {"
