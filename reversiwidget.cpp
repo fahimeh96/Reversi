@@ -39,6 +39,8 @@ ReversiWidget::ReversiWidget(QWidget *parent) : QWidget(parent)
     connect(this, SIGNAL(GameFinished()), this, SLOT(handleFinish()));
 }
 
+// It's git
+
 void ReversiWidget::paintEvent(QPaintEvent *){
     QStyleOption opt;
     opt.init(this);
