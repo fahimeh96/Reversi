@@ -1,5 +1,8 @@
 #include "cpu.h"
 #include <QDebug>
+
+// cpu.cpp
+
 CPU::CPU()
 {
 
